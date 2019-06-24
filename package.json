@@ -2,7 +2,7 @@
   "name": "tba-puller",
   "version": "1.0.0",
   "description": "A data puller and visualizer for The Blue Alliance",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Boomaa23/tba-puller#readme",
   "dependencies": {
+    "@types/node": "^12.0.10",
+    "jquery": "^3.4.1",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.2"
   }
