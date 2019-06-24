@@ -14,7 +14,7 @@ var Data = /** @class */ (function () {
         };
     };
     Data.findEndpoint = function (type, team, event) {
-        var reqEnd;
+        var reqEnd = '';
         switch (type) {
             case 'teamEventMatches':
                 reqEnd = 'team/' + team + '';

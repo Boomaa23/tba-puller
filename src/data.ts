@@ -21,7 +21,7 @@ export class Data {
   }
 
   static findEndpoint(type: string, team?: string, event?: string) {
-    let reqEnd: string;
+    let reqEnd: string = '';
     switch(type) {
       case 'teamEventMatches': reqEnd = 'team/' + team + ''; break;
       case 'allEventMatches': reqEnd = ''; break;
