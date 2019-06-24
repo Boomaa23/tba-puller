@@ -1,4 +1,1 @@
 node_modules/
-dist/*.js
-dist/*.html
-dist/*.js.map

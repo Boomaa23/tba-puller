@@ -1,0 +1,23 @@
+{
+  "name": "tba-puller",
+  "version": "1.0.0",
+  "description": "A data puller and visualizer for The Blue Alliance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boomaa23/tba-puller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boomaa23/tba-puller/issues"
+  },
+  "homepage": "https://github.com/Boomaa23/tba-puller#readme",
+  "dependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2"
+  }
+}
